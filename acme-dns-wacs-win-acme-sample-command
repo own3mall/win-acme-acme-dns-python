@@ -1,0 +1,1 @@
+wacs.exe --target manual --host {DomainToAdd} --webroot {root_to_web_files} --emailaddress {Your_EMAIL} --accepttos --validationmode dns-01 --validation script --dnscreatescript {PATH-TO-acme-dns-wacs-update.bat} --store pemfiles --pemfilespath {PATH_PUT_CERTS}

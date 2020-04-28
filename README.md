@@ -21,10 +21,10 @@ Official Docs:  https://github.com/joohoi/acme-dns
 2. Update the variables in the acme-dns-create.py script with the values obtained from your register endpoint on the acme-dns server:
 
 ```
-acmeUsername = '{acme-dns-api-username}'
-acmePassword = '{acme-dns-api-password}'
-acmeUpdateURL = '{acme-dns-update-url}'
-acmeSubdomain = '{acme-dns-api-subdomain}'
+acmeUsername = '{acme-dns-api-username}'  # example: c32612bc-d42c-4abf-ab2d-0e133c184221
+acmePassword = '{acme-dns-api-password}'  # example: nbBlgGUXnRExc237BxyoOZ8qmXCs44Y17OAWH8d7
+acmeUpdateURL = '{acme-dns-update-url}'   # example:  https://acme.mydomain.com/update
+acmeSubdomain = '{acme-dns-api-subdomain}' # example:  97ff4239-ae11-4849-c224-3f5e1ff1abc9
 ```
 
 3. View the contents in the acme-dns-wacs-win-acme-sample-command file, copy the command, modify it for your usage, and use it to have win-acme obtain SSL certificates using your acme-dns server. 

@@ -12,7 +12,7 @@ These python scripts show you how to request SSL certificates using win-acme <ht
 
 ## Usage and Instructions
 
-1. Copy both the acme-dns-create.py and acme-dns-wacs-update.bat files to your desired directory (or even put it in the win-acme WACS directory)
+1. Copy both the acme-dns-create.py and acme-dns-wacs-update.bat files to your desired directory (or even copy them into the win-acme WACS directory)
 2. Update the variables in the acme-dns-create.py script with the values obtained from your register endpoint on the acme-dns server:
 
 ```

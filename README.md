@@ -4,7 +4,7 @@ win-acme acme-dns Python 2 Scripts
 
 These python scripts can be modified and used to request SSL certificates using win-acme <https://www.win-acme.com/> on a Windows client using DNS-01 validation with a Linux server running acme-dns <https://github.com/joohoi/acme-dns>
 
-## Guide to Running Acme-DNS Server
+## Guide to Running acme-dns Server
 
 Detailed Guide:  https://community.letsencrypt.org/t/help-me-understand-acme-dns/58892
 Official Docs:  https://github.com/joohoi/acme-dns

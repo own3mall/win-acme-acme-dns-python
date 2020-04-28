@@ -28,3 +28,15 @@ acmeSubdomain = '{acme-dns-api-subdomain}' # example:  97ff4239-ae11-4849-c224-3
 ```
 
 3. View the contents in the acme-dns-wacs-win-acme-sample-command file, copy the command, modify it for your usage, and use it to have win-acme obtain SSL certificates using your acme-dns server. 
+
+Command:
+
+```
+wacs.exe --target manual --host {DomainToAdd} --webroot {root_to_web_files} --emailaddress {Your_EMAIL} --accepttos --validationmode dns-01 --validation script --dnscreatescript {PATH-TO-acme-dns-wacs-update.bat} --store pemfiles --pemfilespath {PATH_PUT_CERTS}
+```
+
+Modified example:
+
+```
+wacs.exe --target manual --host test.mydomain.com --webroot C:\httdocs --emailaddress test@mydomain.com --accepttos --validationmode dns-01 --validation script --dnscreatescript C:\Scripts\acme-dns-wacs-update.bat --store pemfiles --pemfilespath C:\certs
+```
